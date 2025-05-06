@@ -14,7 +14,7 @@
     }
 }
 
-class Program
+class Students
 {
     static void Main(string[] args)
     {
