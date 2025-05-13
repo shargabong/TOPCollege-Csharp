@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using System.Data.SqlTypes;
 
 public class Book
 {
@@ -19,7 +20,7 @@ public class AppDbContext : DbContext
     public DbSet<Book> Books { get; set; }
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
     {
-        optionsBuilder.UseNpgsql("Server=(local);Database=Books;Trusted_Connection=True;");
+        optionsBuilder.UseNpgsql("Host=localhost;Database=postgres;Username=postgres;Password=123");
     }
 }
 
@@ -31,6 +32,8 @@ class Database2
 
         context.Database.EnsureCreated();
 
+        context.Books.RemoveRange(context.Books);
+
         context.Books.AddRange(
             new Book
             {
@@ -39,6 +42,7 @@ class Database2
                 Genre = "Fiction",
                 PublicationYear = 1925,
                 Pages = 180,
+                Price = 500,
                 IsAvailable = true,
                 Rating = 4.5,
                 Description = "A classic novel about the American Dream and the decadence of the 1920s."
@@ -51,6 +55,7 @@ class Database2
                 Genre = "Fiction",
                 PublicationYear = 1960,
                 Pages = 281,
+                Price = 689,
                 IsAvailable = true,
                 Rating = 4.3,
                 Description = "A classic novel about racial injustice and the struggles of a young girl in the South."
@@ -63,6 +68,7 @@ class Database2
                 Genre = "Dystopian",
                 PublicationYear = 1949,
                 Pages = 328,
+                Price = 400,
                 IsAvailable = true,
                 Rating = 4.2,
                 Description = "A dystopian novel about a totalitarian society controlled by Big Brother."
@@ -75,6 +81,7 @@ class Database2
                 Genre = "Romance",
                 PublicationYear = 1813,
                 Pages = 279,
+                Price = 765,
                 IsAvailable = true,
                 Rating = 4.4,
                 Description = "A classic novel about the love between Elizabeth Bennet and Mr. Darcy."
@@ -87,6 +94,7 @@ class Database2
                 Genre = "Fantasy",
                 PublicationYear = 1937,
                 Pages = 310,
+                Price = 239,
                 IsAvailable = true,
                 Rating = 4.7,
                 Description = "A classic novel about a hobbit named Bilbo Baggins and his quest to destroy the One Ring."

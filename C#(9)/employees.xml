@@ -1,0 +1,167 @@
+﻿<Employees>
+	<Employee Id="1">
+		<FirstName>Alice</FirstName>
+		<LastName>Smith</LastName>
+		<Department>HR</Department>
+		<Position>Manager</Position>
+		<Salary>5000</Salary>
+		<Projects>
+			<Project>Recruitment</Project>
+			<Project>Training</Project>
+		</Projects>
+	</Employee>
+	<Employee Id="2">
+		<FirstName>Bob</FirstName>
+		<LastName>Johnson</LastName>
+		<Department>IT</Department>
+		<Position>Developer</Position>
+		<Salary>4000</Salary>
+		<Projects>
+			<Project>App Development</Project>
+			<Project>Testing</Project>
+		</Projects>
+	</Employee>
+	<Employee Id="3">
+		<FirstName>Charlie</FirstName>
+		<LastName>Brown</LastName>
+		<Department>IT</Department>
+		<Position>Senior Developer</Position>
+		<Salary>6000</Salary>
+		<Projects>
+			<Project>App Development</Project>
+			<Project>Cloud Migration</Project>
+			<Project>Security Audit</Project>
+		</Projects>
+	</Employee>
+	<Employee Id="4">
+		<FirstName>Diana</FirstName>
+		<LastName>Prince</LastName>
+		<Department>Marketing</Department>
+		<Position>Content Writer</Position>
+		<Salary>3500</Salary>
+		<Projects>
+			<Project>Social Media Campaign</Project>
+			<Project>SEO Optimization</Project>
+		</Projects>
+	</Employee>
+	<Employee Id="5">
+		<FirstName>Edward</FirstName>
+		<LastName>Norton</LastName>
+		<Department>Finance</Department>
+		<Position>Accountant</Position>
+		<Salary>4800</Salary>
+		<Projects>
+			<Project>Budget Planning</Project>
+			<Project>Tax Reporting</Project>
+		</Projects>
+	</Employee>
+	<Employee Id="6">
+		<FirstName>Fiona</FirstName>
+		<LastName>Gallagher</LastName>
+		<Department>IT</Department>
+		<Position>QA Engineer</Position>
+		<Salary>4200</Salary>
+		<Projects>
+			<Project>Testing</Project>
+			<Project>Automation</Project>
+		</Projects>
+	</Employee>
+	<Employee Id="7">
+		<FirstName>George</FirstName>
+		<LastName>Costanza</LastName>
+		<Department>Sales</Department>
+		<Position>Sales Manager</Position>
+		<Salary>5500</Salary>
+		<Projects>
+			<Project>Client Acquisition</Project>
+			<Project>Product Launch</Project>
+		</Projects>
+	</Employee>
+	<Employee Id="8">
+		<FirstName>Hannah</FirstName>
+		<LastName>Baker</LastName>
+		<Department>IT</Department>
+		<Position>DevOps Engineer</Position>
+		<Salary>5800</Salary>
+		<Projects>
+			<Project>CI/CD Pipeline</Project>
+			<Project>Monitoring Tools</Project>
+		</Projects>
+	</Employee>
+	<Employee Id="9">
+		<FirstName>Ian</FirstName>
+		<LastName>Malcolm</LastName>
+		<Department>RanD</Department>
+		<Position>Research Scientist</Position>
+		<Salary>7000</Salary>
+		<Projects>
+			<Project>AI Research</Project>
+			<Project>Data Analysis</Project>
+		</Projects>
+	</Employee>
+	<Employee Id="10">
+		<FirstName>Jessica</FirstName>
+		<LastName>Jones</LastName>
+		<Department>Legal</Department>
+		<Position>Lawyer</Position>
+		<Salary>6500</Salary>
+		<Projects>
+			<Project>Compliance Check</Project>
+			<Project>Contract Review</Project>
+		</Projects>
+	</Employee>
+	<Employee Id="11">
+		<FirstName>Kevin</FirstName>
+		<LastName>Spacey</LastName>
+		<Department>Marketing</Department>
+		<Position>Marketing Manager</Position>
+		<Salary>5200</Salary>
+		<Projects>
+			<Project>Brand Awareness</Project>
+			<Project>Event Management</Project>
+			<Project>Market Research</Project>
+		</Projects>
+	</Employee>
+	<Employee Id="12">
+		<FirstName>Lisa</FirstName>
+		<LastName>Simpson</LastName>
+		<Department>IT</Department>
+		<Position>Junior Developer</Position>
+		<Salary>3000</Salary>
+		<Projects>
+			<Project>Bug Fixing</Project>
+		</Projects>
+	</Employee>
+	<Employee Id="13">
+		<FirstName>Maggie</FirstName>
+		<LastName>Greene</LastName>
+		<Department>HR</Department>
+		<Position>Recruiter</Position>
+		<Salary>3800</Salary>
+		<Projects>
+			<Project>Talent Acquisition</Project>
+		</Projects>
+	</Employee>
+	<Employee Id="14">
+		<FirstName>Nathan</FirstName>
+		<LastName>Drake</LastName>
+		<Department>Sales</Department>
+		<Position>Sales Executive</Position>
+		<Salary>4700</Salary>
+		<Projects>
+			<Project>Lead Generation</Project>
+			<Project>Customer Retention</Project>
+		</Projects>
+	</Employee>
+	<Employee Id="15">
+		<FirstName>Oscar</FirstName>
+		<LastName>Wilde</LastName>
+		<Department>Finance</Department>
+		<Position>Financial Analyst</Position>
+		<Salary>5100</Salary>
+		<Projects>
+			<Project>Financial Forecasting</Project>
+			<Project>Investment Planning</Project>
+		</Projects>
+	</Employee>
+</Employees>
